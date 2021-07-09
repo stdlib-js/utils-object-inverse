@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-object-inverse",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Invert an object, such that keys become values and values become keys.",
   "license": "Apache-2.0",
   "author": {
