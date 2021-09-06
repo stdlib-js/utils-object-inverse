@@ -152,6 +152,12 @@ console.dir( out );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/object-inverse-by`][@stdlib/utils/object-inverse-by]: invert an object, such that keys become values and values become keys, according to a transform function.
+
 </section>
 
 <!-- /.related -->
@@ -214,6 +220,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-object-inverse/main/LICENSE
 
 [ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
+
+<!-- <related-links> -->
+
+[@stdlib/utils/object-inverse-by]: https://github.com/stdlib-js/utils-object-inverse-by
+
+<!-- </related-links> -->
 
 </section>
 
