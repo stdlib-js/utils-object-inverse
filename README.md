@@ -24,38 +24,30 @@ limitations under the License.
 
 > Invert an object, such that keys become values and values become keys.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-object-inverse
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-invert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var invert = require( 'path/to/vendor/umd/utils-object-inverse/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.invert;
-})();
-</script>
+var invert = require( '@stdlib/utils-object-inverse' );
 ```
 
 #### invert( obj\[, options] )
@@ -132,15 +124,10 @@ var out = invert( obj, {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var invert = require( '@stdlib/utils-object-inverse' );
 
 var keys;
 var arr;
@@ -163,11 +150,6 @@ for ( i = 0; i < keys.length; i++ ) {
     }
 }
 console.dir( out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -182,7 +164,7 @@ console.dir( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/object-inverse-by`][@stdlib/utils/object-inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
+-   <span class="package-name">[`@stdlib/utils-object-inverse-by`][@stdlib/utils/object-inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
 
 </section>
 
@@ -261,7 +243,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/object-inverse-by]: https://github.com/stdlib-js/utils-object-inverse-by/tree/umd
+[@stdlib/utils/object-inverse-by]: https://github.com/stdlib-js/utils-object-inverse-by
 
 <!-- </related-links> -->
 
