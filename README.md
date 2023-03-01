@@ -164,7 +164,7 @@ console.dir( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/object-inverse-by`][@stdlib/utils/object-inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
+-   <span class="package-name">[`@stdlib/utils-object-inverse-by`][@stdlib/utils/object-inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
 
 </section>
 
