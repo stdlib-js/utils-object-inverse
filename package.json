@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-object-inverse",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Invert an object, such that keys become values and values become keys.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.1",
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/assert-is-object-like": "^0.2.1",
-    "@stdlib/assert-is-plain-object": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/utils-keys": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-object-like": "^0.2.2",
+    "@stdlib/assert-is-plain-object": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/math-base-special-round": "^0.2.1",
+    "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
