@@ -177,7 +177,7 @@ console.dir( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils-object-inverse-by`][@stdlib/utils/object-inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
+-   <span class="package-name">[`@stdlib/object-inverse-by`][@stdlib/object/inverse-by]</span><span class="delimiter">: </span><span class="description">invert an object, such that keys become values and values become keys, according to a transform function.</span>
 
 </section>
 
@@ -235,8 +235,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -259,7 +259,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/object-inverse-by]: https://github.com/stdlib-js/utils-object-inverse-by
+[@stdlib/object/inverse-by]: https://github.com/stdlib-js/object-inverse-by
 
 <!-- </related-links> -->
 
