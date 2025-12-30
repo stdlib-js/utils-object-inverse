@@ -6,12 +6,23 @@
 
 ## Unreleased (2025-12-30)
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`6d021ff`](https://github.com/stdlib-js/stdlib/commit/6d021ff12baa5380b83daffc78b7d64a308e1e9d) - markdown lint error in `utils/object-inverse` [(#9438)](https://github.com/stdlib-js/stdlib/pull/9438)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`6d021ff`](https://github.com/stdlib-js/stdlib/commit/6d021ff12baa5380b83daffc78b7d64a308e1e9d) - **fix:** markdown lint error in `utils/object-inverse` [(#9438)](https://github.com/stdlib-js/stdlib/pull/9438) _(by Neeraj Pathak, Athan Reines)_
 -   [`4c30cf3`](https://github.com/stdlib-js/stdlib/commit/4c30cf397369b02981a383aa406ebcebd619c163) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 
@@ -25,8 +36,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Neeraj Pathak
 -   Philipp Burckhardt
 
